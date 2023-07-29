@@ -1,0 +1,92 @@
+
+/* --------Accordion--------- */
+/* Add your custom styles or modify this as per your project's requirements */
+.accordion {
+    /* border: 1px solid #ccc; */
+}
+
+.accordion_header {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #1e1e1e;
+    transition: background-color 0.3s ease;
+
+}
+
+.accordion_header.active {
+    /* background-color: #ddd; */
+}
+
+.accordion_content {
+    padding: 10px;
+    max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+/* components/Accordion.module.css */
+.accordion {
+  border: 1px solid #cccccc0f;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.title {
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff05;
+}
+
+/* .content {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 0;
+} */
+
+.content {
+    overflow: hidden;
+    /* height: 0px; */
+    transition: height 1s ease;
+    
+  }
+
+.arrow {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.expanded {
+  transform: rotate(-90deg);
+}
+
+/* You can add additional styling for the content area if needed */
+
+.accordion_content.open {
+    max-height: 100px; /* Adjust this value to the maximum height you want to allow for the content */
+    transition: max-height 0.9s ease;
+  }
+  
+  /* Optional: Add additional styling for the inner content of the accordion */
+  .content_inner {
+    padding: 0 20px;
+  }
+
+
+
+  /* Accordion content inner style */
+
+  .content_elements{
+    margin-top: 20px;
+  }
+  .content_flex{
+    display: flex;
+  }
+
+  .Accordion_title{
+    color: #ffffff7b;
+    margin-bottom: 7px;
+  }
+  

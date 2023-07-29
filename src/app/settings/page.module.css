@@ -1,0 +1,73 @@
+.container {
+    min-height: 100vh;
+    padding: 25px;
+    background-color: #2d3336;
+}
+
+.heading {
+    font-size: 22px;
+}
+
+.banner {
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picwraper {
+    position: relative;
+}
+
+.profileImg {
+    border-radius: 50%;
+}
+
+.penbg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgb(49, 57, 86);
+    height: 37px;
+    width: 37px;
+}
+
+.pen {
+    font-size: 13px;
+}
+
+.name_info {
+    margin-top: 30px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.status_wraper {
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.statuses {
+    background-color: rgb(36, 44, 84);
+    margin-top: 15px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 0;
+    /* transform: translateX(0%); */
+    width: fit-content;
+}
+
+.status {
+    margin: 8px;
+}
+
+

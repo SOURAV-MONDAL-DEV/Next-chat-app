@@ -1,0 +1,40 @@
+/* components/Accordion.module.css */
+.accordion {
+  border: 1px solid #cccccc0f;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.title {
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff05;
+}
+
+/* .content {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  max-height: 0;
+} */
+
+.content {
+    overflow: hidden;
+    /* height: 0px; */
+    transition: height 1s ease;
+    
+  }
+
+.arrow {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+
+.expanded {
+  transform: rotate(-90deg);
+}
+
+/* You can add additional styling for the content area if needed */
